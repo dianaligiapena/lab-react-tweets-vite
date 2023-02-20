@@ -1,13 +1,13 @@
 import Actions from "./Actions";
 import Message from "./Message";
-import ProfileImage from "./ProfileImage";
 import Timestamp from "./Timestamp";
 import User from "./User";
+import ProfileImage from "./ProfileImage";
 
 function Tweet( {example} ) {
   return (
     <div className="tweet">
-      <ProfileImage src={example.user.image}/>
+    <ProfileImage src={example.user.image} />
 
       <div className="body">
         <div className="top">

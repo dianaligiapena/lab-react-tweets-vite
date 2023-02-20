@@ -1,11 +1,11 @@
 import React from 'react'
 
-function User(example) {
+function User({ name, handle}) {
   return (
     <span className="user">
-            <span className="name">{example.name}</span>
-            <span className="handle">@{example.handle}</span>
-          </span>
+            <span className="name">{ name }</span>
+            <span className="handle">@{ handle }</span>
+    </span>
   )
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ProfileImage(example) {
+function ProfileImage({ src }) {
   return (
     <img
-        src={example.src}
+        src={src}
         className="profile"
         alt="profile"
     />
@@ -11,3 +11,4 @@ function ProfileImage(example) {
 }
 
 export default ProfileImage
+
